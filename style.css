@@ -1,0 +1,231 @@
+/* title */
+.jumbotron {
+  width: 100%;
+}
+
+/* this for class center many element have it */
+.center {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+/* this should change to body */
+.container-fluid {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* nav */
+.nav-header {
+  font-family: Tahoma, Geneva, sans-serif;
+  position: fixed;
+}
+
+.navbar {
+  align: right;
+} /* end of nav */
+
+/* title and title  */
+.header-container {
+  height: auto;
+  background: white
+    url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80")
+    no-repeat top;
+  /* background: blue; */
+  /* url("https://thumbs.gfycat.com/NeedyFalseGosling-size_restricted.gif") no-repeat top; */
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: auto;
+}
+
+.header-image {
+}
+
+h1 {
+  text-align: center;
+}
+
+h1.title {
+  color: white;
+  font-family: sans-serif;
+  /* font-size: 80px; */
+  word-spacing: 10px;
+  margin-top: 100px;
+  text-shadow: 6px 6px black;
+}
+
+h1.sub-title {
+  text-align: center;
+  color: #f7f9f9;
+  font-family: sans-serif;
+  margin-top: -20px;
+  margin-bottom: 80px;
+  text-shadow: 3px 2px black;
+  /* font-size: 40px; */
+}
+
+.social-btns {
+  text-align: center;
+}
+
+.btn-social {
+  margin: 20px;
+  background-color: #d8d8d8;
+  width: 150px;
+} /* end of header */
+
+/* about */
+
+.about-section {
+  background-color: #ecf0f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img-profile {
+  margin: 0 auto;
+  border: 4px solid #202020;
+  width: 50%;
+}
+
+h2.about {
+  font-size: 40px;
+  color: #202020;
+  text-shadow: 1px 1px white;
+}
+
+.text-about {
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* projects */
+.container-portfolio {
+  background: #fffafa
+    url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg")
+    no-repeat top;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.back-image-port {
+  margin: 0 auto;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 200px;
+  margin: 30px auto;
+  border: 2px solid #303030;
+  overflow: hidden;
+}
+
+.portfolio-overlay {
+  background: maroon;
+  text-align: center;
+  padding: 25px 0 66px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+}
+.portfolio-img:hover .portfolio-overlay {
+  opacity: 0.8;
+}
+
+/* .icon {
+  font-family: Helvetica;
+  font-weight: 20px;
+  color: white;
+  font-size: 20;
+  margin: 30px auto;
+} */
+
+h2.port-header {
+  color: #808080;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
+h2.portfolio {
+  padding: 10px;
+  width: 300px;
+  background-color: #303030;
+  opacity: 100%;
+  margin: -40px auto 0 auto;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+h2.header {
+  font-family: Impact, Charcoal, sans-serif;
+  padding: 20px;
+}
+
+.contact-container {
+  background: red
+    url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg")
+    no-repeat bottom;
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* projects */
+#slackbot {
+  background: url("slackbot.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#covid-19 {
+  background: url("covid-19.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#pokedex {
+  background: url("pokedex.gif") no-repeat 50%;
+  background-size: cover;
+}
+
+#data_science {
+  background: url("data_science.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#rumblr {
+  background: url("rumblr.png") no-repeat 50%;
+  background-size: cover;
+}
+#keeper {
+  background: url("keeper.png") no-repeat 50%;
+  background-size: cover;
+}
+/* end of projects */
+
+/* footer */
+.footer {
+  background-color: #808080;
+  padding: 10px;
+  width: auto;
+}
+
+p.footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+a.footer {
+  color: white !important;
+}
+
+/* end footer */
+
+.about-point {
+  color: red;
+  font-size: 15git px;
+}
